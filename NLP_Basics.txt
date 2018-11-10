@@ -1,0 +1,12 @@
+1. Tokenizer 
+- Word -> split your data into individual words 
+- Sentence -> split your data into sentences
+2. Remove Stopwords
+- is, am, are, the, at, of, if, has, had...
+3. Stemming
+- determine the root of the word - playing => play
+4. Lemmatizer
+- determine the original form of word => bought - buy
+5. Bag of Words => TF-IDF (Vectorizer)
+- TF => Term Frequency
+- IDF => Inverse Document Frequency
