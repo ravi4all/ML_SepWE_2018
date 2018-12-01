@@ -1,0 +1,23 @@
+1. Generate a data that could be linearly classified
+X = np.array([
+    [-2,4],
+    [4,1],
+    [1,6],
+    [2,4],
+    [6,2],
+])
+
+# Associated output labels
+# First 2 are labeled -1 and last 3 are 1
+y = np.array([-1,-1,1,1,1])
+
+2. Visualize the data
+3. Now initialize the variables like learning_rate, weights, epochs
+4. Take a empty list to store errors.
+5. Start Iterations on epochs
+6. Take a variable error inside loop and initialize it with 0.
+7. Use if condition to check whether weights are missclassified or not
+8. If weights are missclassified than change the value of error from 0 to 1.
+9. Append error into errors.
+10. Else if weights are classified correctly than init error with 0 again.
+11. Now after completing iterations return errors and weights
